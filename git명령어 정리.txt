@@ -1,0 +1,15 @@
+cd 디렉토리명  디렉토리 이동
+pwd   현재디렉토리표시 
+ls       현재 디렉토리의 파일, 하위 디렉토리 리스트 표시
+git --version 설치된 git version확인 
+git config --global 속성명 값 
+git config --global user.name "1000-pro"
+git config --global user.email "1000-pro@naver.com"
+
+git config -l
+git add Main.java
+git commit -m 'first commit'
+
+
+git add(스테이징 영역에 올림)
+git commit -m 메시지 (local repository에 반영)
